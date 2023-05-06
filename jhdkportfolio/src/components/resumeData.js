@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "Your ID",
   codewarsid: "Your codewarsid",
   roleDescription:
-    "I like to learn and create applications in various parts of software development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "I love problem solving, seeing code come together and work infront of me. Trouble shooting has been one of the most frustrating but fun and rewarding parts of this journey for me.",
   socialLinks: [
     {
       name: "linkedin",
@@ -40,7 +40,8 @@ let resumeData = {
       specialization: "Computer Based and Team learning",
       MonthOfPassing: "June",
       YearOfPassing: "2008",
-      Achievements: "High School Diploma",
+      Achievements:
+        "High School Diploma, Computer Science and Repair R.O.P course",
     },
   ],
   work: [
@@ -66,6 +67,10 @@ let resumeData = {
     },
     { skillname: "CSS" },
     { skillname: "Reactjs" },
+    { skillname: "Bulma" },
+    { skillname: "Bootstrap" },
+    { skillname: "Javascript" },
+    { skillname: "MySql & MongoDB" },
   ],
   portfolio: [
     {
