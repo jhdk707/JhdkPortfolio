@@ -2,14 +2,13 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div className="portfolio-container">
+    <div className="project-container">
+      <h2 class="h2 text-center" id="Portfolio">
+        Projects
+      </h2>
       <div className="container">
-        <h2 className="h2 text-center" id="Portfolio">
-          Projects
-        </h2>
-
         <div className="row">
-          <div className="card col-10">
+          <div className="card col-11">
             <h5 className="card-title text-center">
               National Parks Reviewer 5000
             </h5>
@@ -47,7 +46,7 @@ function Portfolio() {
         </div>
 
         <div className="row">
-          <div className="card col-10">
+          <div className="card col-11">
             <h5 className="card-title text-center">Note Taker App</h5>
             <img
               className="card-img-top"
@@ -80,7 +79,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div className="card col-10">
+          <div className="card col-11">
             <h5 className="card-title text-center">Workday Scheduler</h5>
             <img
               className="card-img-top"
@@ -116,7 +115,7 @@ function Portfolio() {
         </div>
 
         <div className="row">
-          <div className="card col-10">
+          <div className="card col-11">
             <h5 className="card-title text-center">Weather Dashboard</h5>
             <img
               className="card-img-top"
@@ -148,7 +147,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="card col-10">
+          <div className="card col-11">
             <h5 className="card-title text-center">Password Generator</h5>
             <img
               className="card-img-top"
