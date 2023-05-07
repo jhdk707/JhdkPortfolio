@@ -72,7 +72,7 @@ function Contact() {
       <form>
         <div className="row">
           <div className="col">
-            <label for="firstName">First Name</label>
+            <label for="firstName"></label>
             <input
               value={firstName}
               onChange={handleInputChange}
@@ -84,7 +84,7 @@ function Contact() {
             />
           </div>
           <div className="col">
-            <label for="lastName">Last Name</label>
+            <label for="lastName"></label>
             <input
               value={lastName}
               onChange={handleInputChange}
@@ -96,7 +96,7 @@ function Contact() {
             />
           </div>
           <div className="form-group col">
-            <label for="email">Email address</label>
+            <label for="email"></label>
             <input
               value={email}
               onChange={handleEmailChange}
@@ -104,31 +104,27 @@ function Contact() {
               className="form-control"
               name="email"
               id="exampleInputEmail1"
-              aria-describedby="emailHelp"
               placeholder="Enter email"
             />
-            <small id="emailHelp" className="form-text text-muted">
-              Please enter a valid email.
-            </small>
           </div>
         </div>
         <div className="row">
-          <div className="form-group col-8">
-            <label for="message">Message</label>
-            <input
+          <div className="form-group form-block">
+            <label for="message"></label>
+
+            <textarea
               value={message}
               onChange={handleMessageChange}
-              type="text"
-              className="form-control"
-              name="message"
+              class="form-control"
               id="message"
-              placeholder="Message"
-            />
+              rows="3"
+              placeholder="Enter a message!"
+            ></textarea>
           </div>
           <button
             type="submit"
             onClick={handleFormSubmit}
-            className="btn btn-primary col-2"
+            className="btn btn-primary btn-sm btn-block btn-outline-light"
           >
             Submit
           </button>

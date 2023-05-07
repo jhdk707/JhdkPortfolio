@@ -14,7 +14,7 @@ function Portfolio() {
             <h5 className="card-title">National Parks Reviewer 5000:</h5>
             <img
               className="card-img-top"
-              src="./assets/NTLPRKSSCREENCAP.png"
+              src="./NTLPRKSSCREENCAP.png"
               alt="screenshot of webpage"
             />
             <div className="card-body">
@@ -48,7 +48,7 @@ function Portfolio() {
             <h5 className="card-title">Note Taker App:</h5>
             <img
               className="card-img-top"
-              src=" ./assets/NoteTaker5000sc.png "
+              src=" ./NoteTaker5000sc.png "
               alt="screenshot of webpage"
             />
             <div className="card-body">
@@ -79,7 +79,7 @@ function Portfolio() {
             <h5 className="card-title">Workday Scheduler: </h5>
             <img
               className="card-img-top"
-              src="./assets/workdayscheduler.png"
+              src="./workdayscheduler.png"
               alt="screenshot of webpage"
             />
             <div className="card-body">
@@ -113,7 +113,7 @@ function Portfolio() {
             <h5 className="card-title">Weather Dashboard:</h5>
             <img
               className="card-img-top"
-              src="./assets\weatherapp.png"
+              src="./weatherapp.png"
               alt="screenshot of webpage"
             />
             <div className="card-body">
@@ -143,7 +143,7 @@ function Portfolio() {
             <h5 className="card-title">Password Generator: </h5>
             <img
               className="card-img-top"
-              src="./assets/passwrdgensc.png"
+              src="./passwrdgensc.png"
               alt="screenshot of webpage"
             />
             <div className="card-body">

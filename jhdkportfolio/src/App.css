@@ -15,12 +15,14 @@
 #000000 Black 
 */
 
-.App {
-  text-align: center;
+* {
+  background-color: #1a759f;
+  color: #e0e2db;
+  padding: 5px;
 }
 
-.PortfolioContainer {
-  background-color: #34a0a4;
+.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -36,9 +38,7 @@ h5 {
   background-color: #34a0a4;
   color: white;
 }
-.navbar-img {
-  max-height: 90px;
-}
+
 .headshot-img {
   max-width: 25%;
   height: auto;
@@ -63,6 +63,11 @@ h5 {
   justify-content: end;
 }
 
+.nav-link {
+  color: white;
+  background-color: black;
+}
+
 .btn {
   padding: 4px;
   margin: 4px;
@@ -78,10 +83,11 @@ h5 {
 }
 
 form {
-  border: 1px solid black;
+  border: 2px solid #c1cad6;
   max-width: 80%;
   margin: 0px 10%;
   padding: 1rem;
+  text-align: center;
 }
 footer {
   text-align: center;

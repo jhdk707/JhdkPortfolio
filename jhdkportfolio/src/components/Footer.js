@@ -8,7 +8,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           href="mailto:jessehudak707@outlook.com"
-          className="btn btn-primary col"
+          className="btn btn-light col"
         >
           Email Me
         </a>
@@ -16,7 +16,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/jhdk707"
-          className="btn btn-primary col"
+          className="btn btn-light col"
         >
           GitHub
         </a>
@@ -24,7 +24,7 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/jesse-hudak-085117272/"
-          className="btn btn-primary col"
+          className="btn btn-light col"
         >
           LinkedIn
         </a>
