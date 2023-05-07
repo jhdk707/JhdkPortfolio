@@ -124,7 +124,7 @@ function Contact() {
           <button
             type="submit"
             onClick={handleFormSubmit}
-            className="btn btn-primary btn-sm btn-block btn-outline-light"
+            className="btn btn-dark btn-outline-light btn-sm col-2 btn-center mx-auto"
           >
             Submit
           </button>

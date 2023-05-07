@@ -9,7 +9,7 @@ function Portfolio() {
         </h2>
 
         <div className="row">
-          <div className="card col">
+          <div className="card col-10">
             <h5 className="card-title text-center">
               National Parks Reviewer 5000
             </h5>
@@ -24,28 +24,30 @@ function Portfolio() {
                 middleware and back end. It was a lot of fun although we were
                 met with some pretty big battles.
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://lit-eyrie-51719.herokuapp.com/"
-                className="btn btn-primary"
-              >
-                Deployed Project
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jhdk707/NationalParksReviewer5000"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
+              <div class="btn-group mx-auto justify-content-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://lit-eyrie-51719.herokuapp.com/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/NationalParksReviewer5000"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="card col">
+          <div className="card col-10">
             <h5 className="card-title text-center">Note Taker App</h5>
             <img
               className="card-img-top"
@@ -57,26 +59,28 @@ function Portfolio() {
                 The NoteTaker5000 App is an application that you can use create,
                 save and erase notes. It is lightweight and quick to use!
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://notetaker5000.herokuapp.com/"
-                className="btn btn-primary"
-              >
-                Deployed Project
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jhdk707/NoteTaker5000"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
+              <div class="btn-group mx-auto justify-content-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://notetaker5000.herokuapp.com/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/NoteTaker5000"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="card col">
+          <div className="card col-10">
             <h5 className="card-title text-center">Workday Scheduler</h5>
             <img
               className="card-img-top"
@@ -89,28 +93,30 @@ function Portfolio() {
                 know if you're on-time to stay on path or coming up to needing
                 to move or abandon the next item on your list.
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://jhdk707.github.io/WorkDayScheduler/"
-                className="btn btn-primary"
-              >
-                Deployed Project
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jhdk707/WorkDayScheduler"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
+              <div class="btn-group mx-auto justify-content-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://jhdk707.github.io/WorkDayScheduler/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/WorkDayScheduler"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="card col">
+          <div className="card col-10">
             <h5 className="card-title text-center">Weather Dashboard</h5>
             <img
               className="card-img-top"
@@ -122,53 +128,57 @@ function Portfolio() {
                 This weather dashboard app allows you to search by city name and
                 check the weather there before you travel or venture outside!
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://jhdk707.github.io/WeatherApp/"
-                className="btn btn-primary"
-              >
-                Deployed Project
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jhdk707/WeatherApp"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
+              <div class="btn-group mx-auto justify-content-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://jhdk707.github.io/WeatherApp/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/WeatherApp"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
             </div>
           </div>
-          <div className="card col">
+          <div className="card col-10">
             <h5 className="card-title text-center">Password Generator</h5>
             <img
               className="card-img-top"
               src="./passwrdgensc.png"
               alt="screenshot of webpage"
             />
-            <div className="card-body">
+            <div className="card-body ">
               <p className="card-text">
                 Built a password generator that gives you several options and a
                 character choice from 8-128 characters to make as secure of a
                 password as you want.
               </p>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://jhdk707.github.io/Password-Generator-Assignment/"
-                className="btn btn-primary"
-              >
-                Deployed Project
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/jhdk707/Password-Generator-Assignment"
-                className="btn btn-primary"
-              >
-                Github Repo
-              </a>
+              <div class="btn-group">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://jhdk707.github.io/Password-Generator-Assignment/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/Password-Generator-Assignment"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
             </div>
           </div>
         </div>

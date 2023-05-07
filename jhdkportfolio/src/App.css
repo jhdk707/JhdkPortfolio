@@ -25,11 +25,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .h2 {
   scroll-margin-top: 20vh;
 }
@@ -46,43 +41,46 @@ h5 {
 .headshot-img {
   max-width: 25%;
   height: auto;
-  margin: 0px 35%;
-}
-
-.container {
-  margin: 2rem;
+  margin: 0% 37% 0%;
+  align-self: center;
 }
 
 .portfolio-container {
-  height: 800px;
+  margin-top: 1.5em;
+  height: 75vh;
   width: 70vw;
   overflow-y: scroll;
   position: fixed;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  justify-content: center;
 }
 
-/* footer {
-  bottom: 0;
-} */
+div.container.py-4 {
+  width: 70vw;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+footer {
+  margin-bottom: 0.25em;
+}
 
 .card {
   padding: 1rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
-.card-body {
-  align-items: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 .navbar-justify {
   justify-content: end;
+}
+
+li.nav-item:hover,
+a.nav-link:hover,
+.nav-tabs:hover {
+  color: #d9ed92;
+  border: none;
 }
 
 li.nav-item {
@@ -90,10 +88,13 @@ li.nav-item {
   border-end-end-radius: 30%;
   border-top-left-radius: 30%;
   margin: 0.1em;
+  border: none;
+  margin-left: 0.5em;
 }
 
 a.nav-link {
   color: #e0e2db;
+  border: none;
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -122,13 +123,4 @@ form {
 }
 footer {
   text-align: center;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

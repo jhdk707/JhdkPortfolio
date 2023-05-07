@@ -6,7 +6,7 @@ function About() {
       <h2 className="h2 text-center" id="About-Me">
         About Me
       </h2>
-      <div className="justify-content-center">
+      <div class="justify-content-center">
         <img
           src="./jesseportrait.jpg"
           className="headshot-img"
