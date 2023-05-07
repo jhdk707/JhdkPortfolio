@@ -112,14 +112,15 @@ function Contact() {
           <div className="form-group form-block">
             <label for="message"></label>
 
-            <textarea
+            <input
               value={message}
               onChange={handleMessageChange}
-              class="form-control"
+              type="text"
+              className="form-control"
+              name="message"
               id="message"
-              rows="3"
               placeholder="Enter a message!"
-            ></textarea>
+            />
           </div>
           <button
             type="submit"
