@@ -7,10 +7,6 @@ function Resume() {
         My Resume and Learned Technologies
       </h2>
 
-      <a href=" " download>
-        Download Resume
-      </a>
-
       <h3>Areas of Knowledge:</h3>
       <ul>
         <li>HTML</li>
@@ -19,6 +15,12 @@ function Resume() {
         <li>MERN (MongoDB, Express, React, Node)</li>
         <li>JavaScript & React JS</li>
       </ul>
+      <button
+        className="btn btn-light btn-outline-dark"
+        onClick={() => window.open("./Resume.pdf", "_blank")}
+      >
+        Download Resume
+      </button>
     </div>
   );
 }

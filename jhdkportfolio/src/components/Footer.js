@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <footer className="container">
+    <footer className="container fixed-bottom">
       <div className="contact-btns">
         <a
           target="_blank"
