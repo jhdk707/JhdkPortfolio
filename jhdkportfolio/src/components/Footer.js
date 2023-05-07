@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -10,7 +13,7 @@ function Footer() {
           href="mailto:jessehudak707@outlook.com"
           className="btn btn-light col"
         >
-          Email Me
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <a
           target="_blank"
@@ -18,7 +21,7 @@ function Footer() {
           href="https://github.com/jhdk707"
           className="btn btn-light col"
         >
-          GitHub
+          <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           target="_blank"
@@ -26,7 +29,7 @@ function Footer() {
           href="https://www.linkedin.com/in/jesse-hudak-085117272/"
           className="btn btn-light col"
         >
-          LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
       Made by Jesse with <span className="heart"> ❤</span> and React

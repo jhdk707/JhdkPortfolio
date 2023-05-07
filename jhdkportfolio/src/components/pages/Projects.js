@@ -2,12 +2,11 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div>
+    <div className=".portfolio-container">
       <div className="container py-4">
-        <h2 className="h2" id="Portfolio">
-          Portfolio:
+        <h2 className="h2 text-center" id="Portfolio">
+          Projects
         </h2>
-        <h3>Example Projects:</h3>
 
         <div className="row">
           <div className="card col">

@@ -61,10 +61,10 @@ function Contact() {
 
   return (
     <div className="container py-4">
-      <h2 className="h2" id="Contact-Me">
-        Contact Me:
+      <h2 className="h2 text-center" id="Contact-Me">
+        Contact Me
       </h2>
-      <p>
+      <p class="h3 text-center">
         Lets connect and talk about code, music, food, movies, cool ocean
         creatures or whatever you like!{" "}
       </p>

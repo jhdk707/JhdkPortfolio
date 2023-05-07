@@ -44,12 +44,21 @@ h5 {
   height: auto;
   margin: 0px 35%;
 }
+
 .container {
   border: 2px solid #34a0a4;
   margin-top: 10rem;
   margin-bottom: 5rem;
 }
 
+.portfolio-container {
+  height: 100px; /* set the height as per your requirement */
+  overflow-y: scroll;
+}
+
+footer {
+  bottom: 0;
+}
 .card {
   padding: 1rem;
   margin: 1rem;
@@ -63,9 +72,10 @@ h5 {
   justify-content: end;
 }
 
-.nav-link {
-  color: white;
-  background-color: black;
+li.nav-item {
+  background-color: #34a0a4;
+  border-radius: 10%;
+  margin: 0.1em;
 }
 
 .btn {

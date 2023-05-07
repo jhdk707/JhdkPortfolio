@@ -34,6 +34,7 @@ export default function PortfolioContainer() {
         backgroundImage: `url("/fortbraggocean.png")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        height: "100vh",
       }}
     >
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

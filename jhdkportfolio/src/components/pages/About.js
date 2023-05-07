@@ -3,12 +3,12 @@ import React from "react";
 function About() {
   return (
     <div className="container py-4">
-      <h2 className="h2" id="About-Me">
-        About Me:
+      <h2 className="h2 text-center" id="About-Me">
+        About Me
       </h2>
       <div className="justify-content-center">
         <img
-          src="./assets/jesseportrait.jpg"
+          src="./jesseportrait.jpg"
           className="headshot-img"
           alt=" headshot "
         />
