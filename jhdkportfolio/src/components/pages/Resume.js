@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="container">
+    <div className="container py-4">
       <h2 className="h2 text-center" id="Resume">
         My Resume and Learned Technologies
       </h2>
