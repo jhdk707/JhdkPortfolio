@@ -16,10 +16,10 @@
 */
 
 * {
-  background-color: #1a759f;
   color: #e0e2db;
   padding: 5px;
   font-family: "Bowlby One SC", cursive;
+  background-color: #1a759f;
 }
 
 .App {
@@ -45,6 +45,7 @@ h5 {
 }
 
 div.project-container {
+  background-color: #1a759f;
   margin-top: 1em;
   height: 75vh;
   width: 80vw;
@@ -57,23 +58,28 @@ div.project-container {
 }
 
 div.container.py-4 {
+  background-color: #1a759f;
   width: 70vw;
   margin-top: 1em;
   align-items: center;
+  border: 5px solid #c1cad6;
 }
 
 #root > div:nth-child(1) > div:nth-child(2) {
   margin-top: 0.25em;
+  background-color: #1a759f;
 }
 
 footer {
   margin-bottom: 0.25em;
+  background-color: #1a759f;
 }
 
 .card {
   padding: 1rem;
   margin: 2rem;
   align-self: center;
+  background-color: #1a759f;
 }
 
 .navbar-justify {
@@ -92,13 +98,11 @@ li.nav-item {
   border-end-end-radius: 30%;
   border-top-left-radius: 30%;
   margin: 0.1em;
-  border: none;
   margin-left: 0.5em;
 }
 
 a.nav-link {
   color: #e0e2db;
-  border: none;
 }
 
 .nav-tabs .nav-item.show .nav-link,
