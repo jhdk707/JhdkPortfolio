@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
   return (
     <div
       style={{
-        backgroundImage: `url("/fortbraggocean.png")`,
+        backgroundImage: `url("./fortbraggocean.png")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "97vh",

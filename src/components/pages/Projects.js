@@ -6,7 +6,7 @@ function Portfolio() {
       <h2 class="h2 text-center" id="Portfolio">
         Projects
       </h2>
-      <div className="container">
+      <div className="projectsscrollcontainer">
         <div className="row">
           <div className="card col-11">
             <h5 className="card-title text-center">
@@ -50,7 +50,7 @@ function Portfolio() {
             <h5 className="card-title text-center">Note Taker App</h5>
             <img
               className="card-img-top"
-              src=" ./NoteTaker5000sc.png "
+              src="./NoteTaker5000sc.png"
               alt="screenshot of webpage"
             />
             <div className="card-body">

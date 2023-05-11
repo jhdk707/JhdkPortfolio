@@ -42,14 +42,31 @@ h5 {
 
 .headshot-img {
   max-width: 30%;
+  margin: auto;
 }
 
 div.project-container {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+img.card-img-top {
+  max-width: 50%;
+  margin: auto;
+}
+
+/* .div.card-body {
   background-color: #1a759f;
-  margin-top: 1em;
+} */
+
+.projectsscrollcontainer {
+  background-color: #1a759f;
+  margin-top: 3em;
   height: 75vh;
   width: 80vw;
   overflow-y: scroll;
+  overflow-x: hidden;
   position: fixed;
   top: 45%;
   left: 50%;
