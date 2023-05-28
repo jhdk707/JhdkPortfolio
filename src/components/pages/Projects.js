@@ -80,6 +80,36 @@ function Portfolio() {
           </div>
 
           <div className="card col-11">
+            <h5 className="card-title text-center">
+              NeedleJunkeez MERN application
+            </h5>
+            <img className="card-img-top" src=" " alt="screenshot of webpage" />
+            <div className="card-body">
+              <p className="card-text">
+                A Vinyl Collector social media website
+              </p>
+              <div class="btn-group mx-auto justify-content-center">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://needlejunkies.herokuapp.com/"
+                  class="btn btn-light"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/jhdk707/NoteTaker5000"
+                  class="btn btn-dark"
+                >
+                  Github Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card col-11">
             <h5 className="card-title text-center">Workday Scheduler</h5>
             <img
               className="card-img-top"
