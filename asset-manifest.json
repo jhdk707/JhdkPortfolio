@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/JhdkPortfolio/static/css/main.9420ef4b.css",
-    "main.js": "/JhdkPortfolio/static/js/main.1cea7f72.js",
+    "main.js": "/JhdkPortfolio/static/js/main.b8d99e1d.js",
     "static/js/787.930fbe9f.chunk.js": "/JhdkPortfolio/static/js/787.930fbe9f.chunk.js",
     "index.html": "/JhdkPortfolio/index.html",
     "main.9420ef4b.css.map": "/JhdkPortfolio/static/css/main.9420ef4b.css.map",
-    "main.1cea7f72.js.map": "/JhdkPortfolio/static/js/main.1cea7f72.js.map",
+    "main.b8d99e1d.js.map": "/JhdkPortfolio/static/js/main.b8d99e1d.js.map",
     "787.930fbe9f.chunk.js.map": "/JhdkPortfolio/static/js/787.930fbe9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9420ef4b.css",
-    "static/js/main.1cea7f72.js"
+    "static/js/main.b8d99e1d.js"
   ]
 }
